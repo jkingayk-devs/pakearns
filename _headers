@@ -1,0 +1,6 @@
+/
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; script-src 'self' https://cdn.jsdelivr.net https://*.effectivecpmnetwork.com https://*.highperformanceformat.com; connect-src 'self' https://dmtaynfyhliuttlmystg.supabase.co wss://dmtaynfyhliuttlmystg.supabase.co; img-src 'self' data: blob: https:; style-src 'self'; frame-src 'self' https://*.effectivecpmnetwork.com https://*.highperformanceformat.com; font-src 'self' data:; form-action 'self';

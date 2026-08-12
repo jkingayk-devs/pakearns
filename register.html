@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Create Account — PakCash</title><link href="/css/app.css" rel="stylesheet"/><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.111.0"></script><script src="/js/supabase-config.js"></script><script src="/js/auth.js"></script><meta content="PakCash account access." name="description"/><meta content="noindex,nofollow" name="robots"/></head>
+<body><main class="auth-shell"><section class="auth-card">
+<div class="brand">🇵🇰 PakCash</div><h1>Create your account</h1><p class="small">Use a real email address so password recovery works.</p>
+<div class="auth-event">Pakistan Independence Day · <strong>Up to ₨1,500</strong><br/><span class="small">Maximum is not a guaranteed payout.</span></div>
+<div aria-live="polite" class="form-msg" id="msg" role="status"></div>
+<form id="registerForm">
+<div class="field"><label for="username">Username</label><input autocomplete="username" id="username" maxlength="30" minlength="3" pattern="[A-Za-z0-9_]{3,30}" required=""/><div class="small">3–30 letters, numbers or underscore.</div></div>
+<div class="field"><label for="email">Email</label><input autocomplete="email" id="email" required="" type="email"/></div>
+<div class="field"><label for="password">Password</label><input autocomplete="new-password" id="password" minlength="10" required="" type="password"/></div>
+<div class="field"><label for="confirm">Confirm password</label><input autocomplete="new-password" id="confirm" minlength="10" required="" type="password"/></div>
+<div class="field"><label for="referral">Referral code <span class="small">(optional)</span></label><input id="referral" maxlength="10" pattern="PK[A-Za-z0-9]{8}"/></div>
+<button class="btn full-width" id="registerBtn" type="submit">Create account</button>
+</form>
+<p class="small mt16">Already registered? <a href="/login.html">Log in</a></p>
+</section></main>
+<script src="/js/page-forms.js"></script><script src="/js/ui.js"></script></body></html>

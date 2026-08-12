@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /wallet.html
+Disallow: /profile.html
+Disallow: /tasks.html
+Disallow: /withdraw.html
+Disallow: /recovery.html
+Disallow: /reset-password.html
+Sitemap: /sitemap.xml
